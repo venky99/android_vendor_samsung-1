@@ -50,6 +50,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libmmipl.so:system/lib/libmmipl.so
 
+## GPS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm7x27-common/proprietary/lib/hw/gps.msm7x27.so:system/lib/hw/gps.msm7x27.so \
+    vendor/samsung/msm7x27-common/proprietary/bin/gpsd:system/bin/gpsd 
+
 ## OMX
 ## Note: libOmxVidEnc uses galaxy5 version for all targets
 PRODUCT_COPY_FILES += \
