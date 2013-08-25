@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27-common/proprietary/bin/memsicd:system/bin/memsicd
 
 ## RIL
+PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/gio/proprietary/bin/rild:system/bin/rild
 
